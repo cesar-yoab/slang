@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(slang C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(slang src/main.c src/common.h src/chunk.h src/chunk.c src/memory.h src/memory.c)
