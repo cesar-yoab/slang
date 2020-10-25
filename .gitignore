@@ -2,3 +2,4 @@
 cmake-build-debug/
 
 # Other files will go here
+.idea/
