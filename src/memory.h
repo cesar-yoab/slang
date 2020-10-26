@@ -1,7 +1,3 @@
-//
-// Created by Cesar Y. Villarreal on 2020-10-25.
-//
-
 #ifndef SLANG_MEMORY_H
 #define SLANG_MEMORY_H
 

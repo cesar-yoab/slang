@@ -1,6 +1,3 @@
-//
-// Created by modcy on 2020-10-25.
-//
 #include <stdlib.h>
 
 #include "memory.h"

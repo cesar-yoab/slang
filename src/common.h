@@ -1,7 +1,3 @@
-//
-// Created by Cesar Y. Villarreal
-//
-
 #ifndef SLANG_COMMON_H
 #define SLANG_COMMON_H
 
