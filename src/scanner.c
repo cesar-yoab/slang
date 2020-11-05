@@ -137,18 +137,12 @@ static TokenType identifierType() {
         case 's':
             if (scanner.current - scanner.start > 1) {
                 switch (scanner.start[1]) {
-                    case 'h': return checkKeyword(2, 2, "elf", TOKEN_SELF);
-                    case 'r': return checkKeyword(2, 2, "uper", TOKEN_SUPER);
+                    case 'e': return checkKeyword(2, 2, "lf", TOKEN_SELF);
+                    case 'u': return checkKeyword(2, 2, "per", TOKEN_SUPER);
                 }
             }
             break;
-        case 't':
-            if (scanner.current - scanner.start > 1) {
-                switch (scanner.start[1]) {
-                    case 'r': return checkKeyword(2, 2, "ue", TOKEN_TRUE);
-                }
-            }
-            break;
+        case 't': return checkKeyword(1, 3, "rue", TOKEN_TRUE);
         case 'w': return checkKeyword(1, 4, "hile", TOKEN_WHILE);
     }
 
